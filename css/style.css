@@ -1,0 +1,220 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    box-sizing: border-box;
+    font-size: 16px;
+}
+
+:root {
+    --black: #111111;
+    --yellow: #FEA301;
+    --blueLight: #01ACFD;
+    --blueDark: #5D58F0;
+    --grayD: #808080;
+    --green: #95B226;
+    --white: #ffffff;
+}
+
+.quicksand {
+    font-family: "Quicksand", serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+}
+
+/* share style start from here.................................. */
+
+.flex {
+    display: flex;
+}
+
+.margin-top {
+    margin-top: 20px;
+}
+
+.primary-btn {
+    background-color: var(--black);
+    padding: 0.5rem 2rem;
+    border-radius: 0.3rem;
+    border: none;
+    color: var(--white);
+    font-weight: 700;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.primary-btn:hover {
+    background-color: var(--yellow);
+}
+
+.hidden {
+    display: none;
+}
+
+
+/* header style start from here */
+header {
+    width: 80%;
+    margin: 0 auto;
+}
+
+header nav .hamburg-box {
+    display: flex;
+    flex-direction: column;
+    gap: 4px;
+    cursor: pointer;
+}
+
+header nav .hamburg {
+    width: 30px;
+    height: 3px;
+    border-radius: 10px;
+    background-color: var(--grayD);
+}
+
+nav,
+ul,
+.logo-box {
+    align-items: center;
+}
+
+nav {
+    justify-content: space-between;
+}
+
+nav .logo-box {
+    cursor: pointer;
+}
+
+nav .logo-box img {
+    width: 8vh;
+}
+
+nav .logo-box h3 {
+    font-size: 2rem;
+    font-weight: 700;
+}
+
+nav ul {
+    gap: 2rem;
+}
+
+nav ul li {
+    list-style: none;
+}
+
+nav ul li a {
+    text-decoration: none;
+    font-weight: 500;
+    transition: 0.3s;
+}
+
+nav ul li:first-child a {
+    color: var(--yellow);
+}
+
+nav ul li:nth-child(2) a {
+    color: var(--blueLight);
+}
+
+nav ul li:nth-child(3) a {
+    color: #05D4DF;
+}
+
+nav ul li:last-child a {
+    color: var(--blueDark);
+}
+
+nav ul li a:hover {
+    color: var(--black);
+}
+
+header nav .btn-box button {
+    background-color: var(--yellow);
+}
+
+header nav .btn-box button:hover {
+    background-color: var(--black);
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* Responsive style start from here .............................................*/
+/* ....................................425px MAX................................ */
+@media screen and (max-width: 425px) {
+
+    html {
+        font-size: 12px;
+    }
+
+    header{
+        width: 90%;
+    }
+    
+    header nav .ul,
+    header nav .btn-box {
+        display: none;
+    }
+}
+
+/*........................................ min 425px and max 720px............................ */
+@media screen and (min-width: 426px) and (max-width: 720px) {
+    html{
+        font-size: 13px;
+    }
+    header nav .hamburg-box{
+        display: none;
+    }
+
+    header nav {
+        flex-direction: column;
+        gap: 2rem
+    }
+  }
+
+ /*........................................ min 720px and max 920px............................ */
+@media screen and (min-width: 721px) and (max-width: 920px) {
+    html{
+        font-size: 16px;
+    }
+    header nav .hamburg-box{
+        display: none;
+    }
+
+    header nav {
+        flex-direction: column;
+        gap: 2rem
+    }
+  }
+  /*........................................ min 921px............................ */
+  @media screen and (min-width: 921px) {
+    header nav .hamburg-box{
+        display: none;
+    }
+  }
+
+  
