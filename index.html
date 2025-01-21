@@ -11,6 +11,10 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@300..700&display=swap" rel="stylesheet">
+    <!-- font awesome link here -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
+        integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
     <!-- css style shit link -->
     <link rel="stylesheet" href="./css/style.css">
     <link rel="stylesheet" href="./css/responsive.css">
@@ -22,7 +26,7 @@
         <section class="header-main-section">
             <nav class="navbar">
                 <a href="#" class="logo-box">
-                    <img src="./assets/logo.png" alt="School" class="logo-img">
+                    <img src="./assets/logo.png" alt="School Logo" class="logo-img">
                     <h3 class="logo-title">School</h3>
                 </a>
                 <ul class="menu-list">
@@ -31,7 +35,7 @@
                     <li><a href="#" class="facilities">Facilities</a></li>
                     <li><a href="#" class="admission">Admission</a></li>
                 </ul>
-                <button class="primary-btn nav-btn">Contact</button>
+                <button class="primary-btn nav-btn" aria-label="Contact Us">Contact</button>
                 <div class="hamburg-box">
                     <div></div>
                     <div></div>
@@ -44,19 +48,63 @@
                         <h1 class="right-box-title"><span class="yellow">Empowering</span> <br> students from small <br>
                             age <span class="blue">towards vision</span></h1>
                         <p class="right-description">With the courage, Confidence, Creativity and Compassion to make
-                            <br> their Unique Contribution in a Diverse and Dynamic World.</p>
+                            <br> their Unique Contribution in a Diverse and Dynamic World.
+                        </p>
                         <button class="primary-btn">Enroll Now</button>
                     </div>
                 </div>
                 <div class="hero-left-container">
-                    <img src="./assets/hero-kids.png" alt="Hero-kids" class="kids-banner">
+                    <img src="./assets/hero-kids.png" alt="School logo with a book and pencil icon" class="kids-banner">
                 </div>
             </section>
         </section>
     </header>
 
     <main>
-
+        <!-- Standard Curriculum -->
+        <section class="standard_curriculum_section">
+            <div class="standard-container">
+                <h1 class="right-box-title text_center">Standard Curriculum</h1>
+                <!-- curriculum_container -->
+                <div class="curriculum_container">
+                    <!-- curriculum_box_1 -->
+                    <div class="curriculum_box">
+                        <img src="./assets/kinder.png" alt="Kinder photos" class="curriculum_img">
+                        <h3 class="box_title">Kinder (3-6) Years</h3>
+                        <p class="box_description">At this age, children are naturally curious and full of energy. Our
+                            specially designed program for aged 3-6 focuses on building their cognitive, emotional.</p>
+                        <a href="#" class="box_read_more">Read More</a>
+                    </div>
+                    <!-- curriculum_box_2 -->
+                    <div class="curriculum_box curriculum_box_2">
+                        <img src="./assets/elementary.png" alt="Kinder photos" class="curriculum_img_2">
+                        <h3 class="box_title">Elementary School</h3>
+                        <p class="box_description">
+                            Building Foundations for a Bright Future
+                            Our Elementary School program caters to children aged 6-11, focusing on fostering curiosity,
+                            creativity, and a love for learning. </p>
+                        <a href="#" class="box_read_more read_more_2">Read More</a>
+                    </div>
+                    <!-- curriculum_box_3 -->
+                    <div class="curriculum_box curriculum_box_3">
+                        <img src="./assets/middle.png" alt="Kinder photos" class="curriculum_img">
+                        <h3 class="box_title">Middle (10-16) Years</h3>
+                        <p class="box_description">Our Middle School program is tailored for students aged 10-16, a
+                            pivotal creativity creativity, stage in their academic and personal growth. This program.
+                        </p>
+                        <a href="#" class="box_read_more read_more_3">Read More</a>
+                    </div>
+                </div>
+                <div class="slider_container">
+                    <div class="slider_box">
+                        <i class="fa-solid fa-chevron-left"></i>
+                    </div>
+                    <div class="slider_box">
+                        <i class="fa-solid fa-chevron-right"></i>
+                    </div>
+                </div>
+            </div>
+        </section>
     </main>
 
     <footer>

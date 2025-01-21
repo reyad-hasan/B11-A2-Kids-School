@@ -41,12 +41,17 @@ html {
     background-color: var(--yellow);
 }
 
+.text_center {
+    text-align: center;
+}
+
 /* header section style start from here */
 .header {
     background-color: var(--headerBg);
 }
 
-.header-main-section {
+.header-main-section,
+.standard-container {
     width: 80%;
     margin: 0 auto;
 }
@@ -113,6 +118,7 @@ html {
 
 .nav-btn {
     background-color: var(--yellow);
+    transition: background-color 0.3s ease;
 }
 
 .nav-btn:hover {
@@ -176,4 +182,101 @@ html {
 
 .kids-banner {
     width: 100%;
+}
+
+/* header section end here................................................................... */
+
+
+.standard_curriculum_section {
+    background: url(../assets/bg.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    padding: 40px 0px;
+}
+
+.curriculum_container {
+    display: flex;
+    justify-content: space-between;
+    gap: 40px;
+    margin-top: 50px;
+    width: 100%;
+}
+
+.curriculum_box {
+    padding: 20px;
+    box-sizing: border-box;
+    border: 0.94px solid rgb(222, 245, 255);
+    border-radius: 18.86px;
+    box-shadow: inset 0px 0px 28.3px 0.94px rgba(0, 0, 0, 0.05);
+    background: linear-gradient(180.00deg, rgb(222, 245, 255), rgba(255, 255, 255, 0) 40%), rgb(255, 255, 255);
+    text-align: center;
+    width: 30%;
+}
+
+.curriculum_img {
+    width: 40%;
+}
+
+.curriculum_img_2 {
+    width: 45%;
+}
+
+.curriculum_box_2 {
+    background: linear-gradient(180.00deg, rgb(255, 244, 220), rgba(255, 255, 255, 0) 40%), rgb(255, 255, 255);
+}
+
+.curriculum_box_3 {
+    background: linear-gradient(180.00deg, rgb(238, 225, 255), rgba(255, 255, 255, 0) 40%), rgb(255, 255, 255);
+}
+
+.box_title {
+    color: #252525;
+    margin-top: 30px;
+}
+
+.box_description {
+    color: #808080;
+    font-weight: 300;
+    margin: 10px 0;
+    line-height: 1.5rem;
+}
+
+.box_read_more {
+    text-decoration: none;
+    font-weight: 700;
+    color: var(--blueDark);
+    transition: 0.2s;
+}
+
+.read_more_2 {
+    color: var(--yellow);
+}
+
+.read_more_3 {
+    color: var(--blueLight);
+}
+
+.box_read_more:hover {
+    color: var(--black);
+}
+
+.slider_container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    margin-top: 40px;
+}
+
+.slider_box {
+    width: 45px;
+    height: 45px;
+    background-color: var(--yellow);
+    border-radius: 50%;
+    color: var(--white);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
 }
