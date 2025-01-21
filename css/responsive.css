@@ -1,14 +1,16 @@
 @media screen and (max-width: 320px) {
-    html {
-        font-size: 12px;
-    }
 
     .navbar {
-        padding-top: 1.5rem;
+        padding: 1.5rem 0rem;
+        border-bottom: 1px solid var(--yellow);
     }
 
     .header-main-section {
         width: 90%;
+    }
+
+    .logo-title {
+        font-size: 1.4rem;
     }
 
     .hamburg-box {
@@ -23,6 +25,25 @@
     .nav-btn {
         display: none;
     }
+
+    .hero-section {
+        flex-direction: column-reverse;
+    }
+
+    .hero-right-container {
+        width: 100%;
+        text-align: center;
+        margin-top: 20px;
+    }
+
+    .hero-left-container {
+        width: 100%;
+    }
+
+    .right-box-title {
+        font-size: 1.7rem;
+    }
+
 }
 
 @media screen and (min-width: 321px) and (max-width: 520px) {
@@ -47,6 +68,30 @@
         cursor: pointer;
     }
 
+    .hero-section {
+        flex-direction: column-reverse;
+    }
+
+    .hero-right-container {
+        width: 100%;
+        text-align: center;
+        margin-top: 20px;
+    }
+
+    .hero-left-container {
+        width: 100%;
+        display: flex;
+        justify-content: center;
+    }
+
+    .right-box-title {
+        font-size: 2rem;
+    }
+
+    .kids-banner {
+        width: 80%;
+    }
+
 }
 
 
@@ -62,5 +107,51 @@
 
     .menu-list {
         gap: 20px
+    }
+
+    .hero-section {
+        flex-direction: column;
+    }
+
+    .hero-right-container {
+        width: 100%;
+        margin: 20px 0px 50px 0px;
+        text-align: center;
+        display: flex;
+        justify-content: center;
+    }
+
+    .hero-left-container {
+        width: 100%;
+        display: flex;
+        justify-content: center;
+    }
+
+    .kids-banner {
+        width: 80%;
+    }
+
+    .right-box-title {
+        font-size: 2rem;
+    }
+}
+
+@media screen and (min-width: 768px) and (max-width: 1020px) {
+
+    .hero-section {
+        justify-content: space-between;
+    }
+
+    .hero-right-container {
+        width: 60%;
+    }
+
+    .hero-left-container {
+        width: 40%;
+    }
+
+    .right-box-title {
+        font-size: 2rem;
+
     }
 }

@@ -111,6 +111,14 @@ html {
     color: var(--blueLight);
 }
 
+.nav-btn {
+    background-color: var(--yellow);
+}
+
+.nav-btn:hover {
+    background-color: var(--black);
+}
+
 .hamburg-box {
     display: none;
 }
@@ -125,4 +133,47 @@ html {
 
 .hamburg-box:hover div {
     background-color: black;
+}
+
+/* hero section style start from here */
+.hero-section {
+    width: 100%;
+    margin-top: 50px;
+    display: flex;
+    gap: 2%;
+    overflow: hidden;
+}
+
+.hero-right-container {
+    width: 63%;
+    display: flex;
+    align-items: center;
+}
+
+.right-box-title {
+    font-size: 3rem;
+    font-weight: 700;
+    color: var(--black);
+}
+
+.yellow {
+    color: var(--yellow);
+}
+
+.blue {
+    color: var(--blueLight);
+}
+
+.right-description {
+    color: var(--grayD);
+    font-weight: 500;
+    margin: 15px 0px;
+}
+
+.hero-left-container {
+    width: 35%;
+}
+
+.kids-banner {
+    width: 100%;
 }
