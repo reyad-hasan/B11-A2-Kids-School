@@ -361,7 +361,7 @@ html {
     overflow: hidden;
     display: flex;
     flex-direction: column;
-    height: 300px;
+    /* height: 300px; */
     position: relative;
 }
 
@@ -392,14 +392,17 @@ html {
     cursor: pointer;
 }
 
+.grid_bnt_bg {
+    background-color: var(--blueDark);
+}
+
 .grid_btn:hover {
     background-color: var(--yellow);
 }
 
 .grid_btn_box {
     position: absolute;
-    top: 55%;
-    bottom: 45%;
+    top: 10rem;
     left: 20px;
 }
 
