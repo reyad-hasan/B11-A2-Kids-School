@@ -52,7 +52,8 @@ html {
 
 .header-main-section,
 .standard-container,
-.our_stories_container {
+.our_stories_container,
+.footer_container {
     width: 80%;
     margin: 0 auto;
 }
@@ -140,6 +141,10 @@ html {
 
 .hamburg-box:hover div {
     background-color: black;
+}
+
+.marquee {
+    margin-top: 10px;
 }
 
 /* hero section style start from here */
@@ -415,4 +420,82 @@ html {
 .view_btn {
     padding: 15px 50px;
     font-size: 16px;
+}
+
+/* footer_section */
+.footer_section {
+    background-color: var(--black);
+    padding: 60px 0;
+}
+
+.footer_container {
+    display: flex;
+}
+
+.footer_left {
+    width: 45%;
+}
+
+.footer_logo_img {
+    width: 9vh;
+}
+
+.footer_logo {
+    color: var(--white);
+    font-size: 1.5rem;
+}
+
+.footer_description {
+    color: var(--white);
+    width: 70%;
+    margin-bottom: 0px;
+    font-weight: 400;
+}
+
+
+.footer_right {
+    width: 55%;
+}
+
+.footer_right_container {
+    display: flex;
+    justify-content: space-between;
+}
+
+.right_container_left {
+    color: var(--white);
+}
+
+.footer_list_title {
+    margin-bottom: 25px;
+    color: var(--white);
+}
+
+.right_list {
+    list-style: none;
+    margin-top: 10px;
+}
+
+.right_link {
+    text-decoration: none;
+    color: var(--white);
+}
+
+.right_link:hover {
+    text-decoration: underline;
+}
+
+.social_link_box {
+    display: flex;
+    gap: 10px
+}
+
+.social_icon {
+    width: 5vh;
+    cursor: pointer;
+    transition: 0.2s;
+}
+
+.social_icon:hover {
+    transform: scale(1.1);
 }

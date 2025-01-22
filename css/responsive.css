@@ -62,7 +62,7 @@
     }
 
     .slider_container {
-        margin-top: 20px;
+        display: none;
     }
 
     /* our_stories_section */
@@ -90,7 +90,27 @@
         top: 9rem;
     }
 
+    /* footer section */
+    .footer_container {
+        flex-direction: column;
+    }
 
+    .footer_left,
+    .footer_right {
+        width: 100%;
+    }
+
+    .footer_description {
+        width: 100%;
+    }
+
+    .footer_right_container {
+        flex-direction: column;
+    }
+
+    .footer_list_title {
+        margin-top: 50px;
+    }
 
 }
 
@@ -160,6 +180,7 @@
 
     .slider_container {
         margin-top: 20px;
+        display: none;
     }
 
     /* our_stories_section */
@@ -185,6 +206,28 @@
 
     .grid_btn_box {
         top: 12rem;
+    }
+
+    /* footer section */
+    .footer_container {
+        flex-direction: column;
+    }
+
+    .footer_left,
+    .footer_right {
+        width: 100%;
+    }
+
+    .footer_description {
+        width: 100%;
+    }
+
+    .footer_right_container {
+        flex-direction: column;
+    }
+
+    .footer_list_title {
+        margin-top: 50px;
     }
 }
 
@@ -245,7 +288,7 @@
     }
 
     .slider_container {
-        margin-top: 30px;
+        display: none;
     }
 
     .our_container_stories {
@@ -291,6 +334,10 @@
 
     .curriculum_box {
         width: 45%;
+    }
+
+    .slider_container {
+        display: none;
     }
 
     .our_container_stories {
